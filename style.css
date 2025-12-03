@@ -1,4 +1,4 @@
-/* Global Reset */
+/* Global */
 body {
   font-family: "Segoe UI", Arial, sans-serif;
   margin: 0;
@@ -18,20 +18,14 @@ body {
 
 .logo {
   width: 130px;
+  height: 130px;
+  border-radius: 50%;     
+  border: 4px solid #ffffff;
+  object-fit: cover;
   margin-bottom: 20px;
 }
 
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  opacity: 0.95;
-}
-
-/* BUTTON */
+/* Buttons */
 .cta {
   padding: 15px 35px;
   font-size: 1.1rem;
@@ -68,25 +62,25 @@ body {
   text-align: center;
 }
 
+/* Rounded feature images */
 .icon {
-  width: 80px;
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;  /* rounded edges */
+  object-fit: cover;
   margin-bottom: 15px;
 }
 
-.feature-card h3 {
-  color: #c62828;
-}
-
-/* IMAGE */
+/* VISUAL IMAGE */
 .visual img {
   width: 100%;
   max-width: 900px;
   display: block;
   margin: 30px auto;
-  border-radius: 12px;
+  border-radius: 20px; 
 }
 
-/* INFO */
+/* INFO SECTION */
 .info {
   padding: 60px 25px;
   text-align: center;
