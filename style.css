@@ -1,4 +1,4 @@
-/* GLOBAL RESET */
+/* GLOBAL */
 * {
   margin: 0;
   padding: 0;
@@ -47,7 +47,7 @@ body {
   margin: auto;
 }
 
-/* BUTTONS */
+/* BUTTON STYLING */
 .cta {
   padding: 15px 35px;
   font-size: 1.15rem;
@@ -111,23 +111,99 @@ body {
   box-shadow: 0 12px 30px rgba(0,0,0,0.12);
 }
 
-/* INFO SECTION */
-.info {
-  padding: 70px 25px;
-  text-align: center;
-  max-width: 950px;
+/* =============================== */
+/* IMPROVED INFO SECTION */
+/* =============================== */
+
+.improved-info {
+  padding: 80px 25px;
+  background: #fffefe;
+}
+
+.info-container {
+  max-width: 1100px;
   margin: auto;
+  text-align: left;
 }
 
-.info h2 {
+.section-title {
+  font-size: 2.8rem;
   color: #c62828;
-  font-size: 2.4rem;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
+  text-align: center;
 }
 
-.info p {
-  font-size: 1.15rem;
+.section-desc {
+  font-size: 1.2rem;
+  text-align: center;
   opacity: 0.85;
+  margin-bottom: 50px;
+}
+
+.info-block {
+  margin-bottom: 40px;
+  padding: 25px;
+  background: white;
+  border-left: 6px solid #c62828;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.07);
+}
+
+.info-block h3 {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+  color: #8b1a1a;
+}
+
+.info-block p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 35px;
+  margin-bottom: 45px;
+}
+
+.info-grid h3 {
+  color: #c62828;
+  margin-bottom: 12px;
+}
+
+.info-grid ul {
+  padding-left: 20px;
+  line-height: 1.7;
+}
+
+.info-features {
+  background: #fff3f3;
+  padding: 30px;
+  border-radius: 14px;
+  margin-bottom: 50px;
+}
+
+.info-features h3 {
+  margin-bottom: 12px;
+  color: #c62828;
+}
+
+.info-features ul {
+  columns: 2;
+  column-gap: 40px;
+  padding-left: 20px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 700px) {
+  .info-features ul {
+    columns: 1;
+  }
+  .section-title {
+    font-size: 2.2rem;
+  }
 }
 
 /* FINAL CTA */
@@ -149,7 +225,7 @@ footer {
   font-size: 0.95rem;
 }
 
-/* RESPONSIVE DESIGN */
+/* RESPONSIVE FEATURES */
 @media screen and (max-width: 900px) {
   .features {
     flex-direction: column;
