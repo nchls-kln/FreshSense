@@ -62,13 +62,13 @@ body {
   text-align: center;
 }
 
-/* Rounded feature images */
+/* Feature images */
 .icon {
-  width: 90px;
-  height: 90px;
-  border-radius: 20px;  /* rounded edges */
+  width: 140px;       
+  height: 140px;       
+  border-radius: 25px; 
   object-fit: cover;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 /* VISUAL IMAGE */
